@@ -197,6 +197,8 @@ header {
   color: white;
 }
 
+
+
 header.sales-header {
   background-image: url('../img/sales-header.jpg') !important;
 }
@@ -354,7 +356,7 @@ header.detail-header .header-content .header-content-inner {
   width: 100%;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 200px;
   transform: translateY(-50%);
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
@@ -769,4 +771,15 @@ h3 {
   margin-top: 50px;
 }
 
+
+.portfolio-item {
+  height: 400px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .portfolio-item {
+    height: 240px;
+  }
+}
 
